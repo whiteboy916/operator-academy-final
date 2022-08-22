@@ -2,10 +2,10 @@
   "name": "express-starter",
   "version": "1.0.0",
   "description": "An Express Starter project for Operator Academy",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon -e js index.js"
+    "start": "node app.js"
   },
   "author": "joenash",
   "license": "MIT",
