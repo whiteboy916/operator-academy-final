@@ -1,4 +1,6 @@
 //  Send SMS While On A Phone Call
+// Start with Node app.js
+
 
 require('dotenv').config();
 
@@ -27,7 +29,7 @@ function sendSms(caller, twilioNumber) {
   const client = require('twilio')(accountSid, authToken);
 
   return client.messages.create({
-    body: "There's always money in the banana stand.",
+    body: "boom operator academy gave me these tools.",
     from: twilioNumber,
     to: caller,
   }).then()
